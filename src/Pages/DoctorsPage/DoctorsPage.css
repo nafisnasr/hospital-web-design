@@ -1,0 +1,101 @@
+.doctorsPage {
+    padding: 20px;
+    width: 100%;
+}
+
+.doctorsList {
+    margin-top: 20px;
+}
+
+.doctorsPageWrapper {
+    display: flex;
+}
+
+.doctorsCategory {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+    align-items: right;
+    flex-direction: column;
+    direction: rtl;
+    margin-left: 10px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.7);
+}
+
+.doctorsCategoryTitle {
+    font-weight: 600;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.saveChangeBtn {
+    margin: 20px;
+    border: none;
+    padding: 7px 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 5px;
+    background-color: rgb(36, 41, 36);
+}
+
+.saveChangeBtn:hover {
+    background-color: rgba(36, 41, 36, 0.548);
+}
+
+.doctorsInfoList {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.7);
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.doctorsInfoListTitle {
+    font-weight: 600;
+}
+
+.categoryItem {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctorsSearchBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.doctorsSearchBox .searchInput {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.doctorsSearchBox .searchBtn {
+    border: none;
+    background-color: blue;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.doctorsSearchBox .searchBtn:hover {
+    background-color: rgba(0, 0, 255, 0.596);
+}
+
+@media screen and (max-width:700px) {
+    .doctorsCategory {
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80vh;
+    direction: rtl;
+    overflow: hidden;
+    background-image: url("/public/images/pexels-anna-shvets-4483327.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+.headerWrapper {
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTextBox{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff8a;
+}
+
+.headerTitle {
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.headerDetails {
+    padding: 20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.headerTitle span {
+    color: rgb(104, 104, 243);
+}
+
+.headerBtnBox {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBtnBox .link {
+    color:#fff;
+}
+
+.headerGetTimeBtn,
+.headerLearnMoreBtn {
+    margin: 10px;
+    width: 30%;
+}
+
+@media screen and (max-width: 770px) {
+    .headerTextBox {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .headerGetTimeBtn,.headerLearnMoreBtn {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .headerTextBox {
+        width: 80%;
+    }
+    .headerDetails{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .headerTextBox {
+        width: 90%;
+    }
+    .headerDetails{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:350px) {
+    .headerTextBox{
+        width: 100%;
+    }
+    .headerGetTimeBtn,.headerLearnMoreBtn{
+        width: 40%;
+    }
+}

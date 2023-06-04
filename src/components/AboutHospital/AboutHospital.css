@@ -1,0 +1,59 @@
+.AboutHospital {
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: rgb(60, 60, 243);
+}
+
+.AboutHospitalWrapper {
+    padding: 20px;
+    color: #fff;
+}
+.AboutHospitalImgBox{
+    margin: 20px 0px;
+}
+.AboutHospitalCenterBox {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    direction: rtl;
+    margin: 20px 0px;
+}
+
+.AboutHospitalCenterBox .title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.AboutHospitalCenterBox .details {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.AboutHospitalRightBox {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.AboutHospitalRightBox .AboutHospitalItems {
+    background-color: #f1f1f1;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: #212121;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.AboutHospitalRightBox .AboutHospitalItems:hover {
+    background-color: #c5c3c3;
+}
+
+.AboutHospitalRightBox .AboutHospitalItems .AboutHospitalIcon {
+    font-size: 24px;
+}

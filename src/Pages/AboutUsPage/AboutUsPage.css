@@ -1,0 +1,62 @@
+.aboutPage {
+    width: 100%;
+    padding: 20px;
+}
+
+.aboutPageWrapper {
+    padding: 10px;
+    display: flex;
+}
+
+.left-side {
+    direction: rtl;
+    flex: 1;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.left-side h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.left-side .link {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 6px;
+    background-color: rgb(64, 91, 241);
+    color: #fff;
+    border-radius: 10px;
+    height: auto;
+}
+
+.right-side {
+    flex: 4;
+    padding: 20px;
+    direction: rtl;
+}
+
+.right-side .title {
+    font-weight: 600;
+}
+
+.right-side .text {
+    margin: 20px;
+}
+
+.about-us-list {
+    margin: 30px;
+}
+
+.about-us-list li {
+    margin: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .left-side {
+        display: none;
+    }
+}

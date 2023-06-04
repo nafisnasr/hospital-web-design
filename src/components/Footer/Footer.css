@@ -1,0 +1,122 @@
+footer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #212121;
+}
+
+.footerWrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    direction: rtl;
+    color: #fff;
+}
+
+.footerLinks,
+.footerAbout,
+.footerContactUs {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.footerLinks .link {
+    margin: 10px;
+}
+
+.footerLinksTitle,
+.footerAboutTitle,
+.footerContactTitle {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footerTimeTableBox {
+    width: 100%;
+    margin: 20px;
+}
+
+.timeTableItem {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerAddress {
+    margin-top: 20px;
+}
+
+.footerAddress .addressIcon {
+    font-size: 30px;
+}
+
+.footerInputBox {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerInputBox input {
+    width: 90%;
+    border-bottom: 2px solid #ddd;
+    background-color: transparent;
+    outline: none;
+    border-right: none;
+    padding: 5px 7px;
+    color: rgb(144, 144, 245);
+}
+
+.footerInputBox .inputIcon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.footerInputBox .inputIcon:hover {
+    color: #ddd;
+}
+
+.footerSocialMedia {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footerSocialMedia .socialMediaIcon {
+    font-size: 22px;
+    transition:all .3s;
+}
+.telegram:hover {
+    color:rgb(32, 32, 150);
+}
+.instagram:hover {
+    color:rgb(233, 56, 139);
+}
+.email:hover {
+    color:rgb(233, 56, 71);
+}
+.copyrightBox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    direction: rtl;
+    background-color: rgb(1, 1, 39);
+    color: #fff;
+    padding:20px;
+}
+.copyrightBox span{
+    font-size: 14px;
+}
+.copyrightBox span a{
+    direction: ltr;
+}

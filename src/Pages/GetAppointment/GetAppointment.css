@@ -1,0 +1,78 @@
+.getAppointment {
+    width: 100%;
+    padding: 20px;
+    direction: rtl;
+}
+
+.getAppointmentWrapper {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.getAppointmentTitle {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(107, 107, 241);
+}
+
+.appointmentRulesTitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.appointmentRules {
+    padding-right: 20px;
+}
+
+.appointmentRules li {
+    margin: 8px;
+}
+
+.appointmentBtnBox {
+    width: 50%;
+    background-color: #ccc;
+    margin: 30px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logInBtn,
+.registerBtn {
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s;
+}
+
+.btnIcon {
+    margin-left: 6px;
+    font-size: 22px;
+}
+
+.logInBtn {
+    background-color: lightseagreen;
+    margin-left: 8px;
+}
+
+.logInBtn:hover {
+    background-color: rgba(32, 178, 171, 0.705);
+}
+
+.registerBtn {
+    background-color: rgb(15, 178, 233);
+}
+
+.registerBtn:hover {
+    background-color: rgba(15, 179, 233, 0.733);
+}
+
+@media screen and (max-width:800px) {
+    .appointmentBtnBox {
+        width: 100%;
+    }
+}

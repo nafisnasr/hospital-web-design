@@ -1,0 +1,25 @@
+.numbersBox {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.numbersBoxWrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.numbersBoxItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.numbersBoxItem .title {
+    font-weight: 600;
+}
